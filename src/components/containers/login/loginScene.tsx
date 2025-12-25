@@ -139,7 +139,7 @@ const LoginScene = (props: LoginSceneProps) => {
       {isVerificationPage && (
         <>
           <CardHeader className="items-center text-center">
-            <span className="mb-4 inline-flex size-16 items-center justify-center rounded-2xl bg-blue-600 text-white">
+            <span className="mb-4 inline-flex mx-auto size-16 items-center justify-center rounded-2xl bg-blue-600 text-white">
               <Package className="size-8" />
             </span>
             <CardTitle className="text-2xl">Verify OTP</CardTitle>
@@ -178,7 +178,7 @@ const LoginScene = (props: LoginSceneProps) => {
                   renderInput={(inputProps) => (
                     <Input
                       {...inputProps}
-                      className="h-14 w-12 border-2 rounded-2xl bg-white text-center text-xl font-semibold text-black outline-none ring-0 transition focus:border-blue-500 focus:ring-2 focus:ring-blue-500 placeholder:text-neutral-400 sm:h-14 sm:w-14"
+                      className="h-14 w-16 border-2 rounded-xl bg-white text-center text-xl font-semibold text-black outline-none ring-0 transition focus:border-blue-500 focus:ring-2 focus:ring-blue-500 placeholder:text-neutral-400 sm:h-14 sm:w-14"
                       style={{ color: "#000" }}
                     />
                   )}

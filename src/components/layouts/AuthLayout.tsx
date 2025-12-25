@@ -24,7 +24,7 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
         {/* Logo Container */}
 
         {/* Form Container */}
-        <div className="w-full max-w-md mx-auto px-5 md:px-10 py-5 md:py-10 flex-1 flex items-center">
+        <div className="w-full max-w-lg mx-auto px-5 md:px-10 py-5 md:py-10 flex-1 flex items-center">
           <GoogleReCaptchaProvider
             reCaptchaKey={recaptchaSiteKey}
             scriptProps={{
